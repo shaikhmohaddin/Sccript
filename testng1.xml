@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <suite-files>
+    <suite-file path="../asif/testng.xml"></suite-file>
+    <suite-file path="../asif/testng1.xml"></suite-file>
+    <suite-file path="../asif/testng2.xml"></suite-file>
+    </suite-files>
+<test name="test2">
+<classes>
+<class name="TestNG.con_11">
+<methods>
+<exclude name="test_01"></exclude> 
+</methods>
+</class>
+</classes>
+</test>
+<test name="test3">
+<packages>
+<package name="TestNG"></package>
+</packages>
+</test>
+</suite> <!-- Suite -->
